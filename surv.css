@@ -102,8 +102,15 @@ h1 {
   opacity: 90%;
 }
 
+@font-face {
+  font-family: fragile;
+  src: url(fragilebombers.ttf);
+}
 
-
+#text{
+  font-family: fragile;
+  font-size: 20px;
+}
 
 
 
