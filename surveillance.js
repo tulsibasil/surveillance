@@ -12,10 +12,7 @@ function musicPlay() {
     document.getElementById('myaudio').play();
 }
 
-document.addEventListener('mouseenter', musicPlay);
-function musicPlay() {
-    document.getElementById('myaudio').play();
-}
+
 
 // var audio = $("#myaudio")[0];
 

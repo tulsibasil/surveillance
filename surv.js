@@ -16,3 +16,8 @@ document.getElementById('surprise').addEventListener('ended',myHandler,false);
 //   document.getElementById("overlay").style.display = "none";
 // }
 
+document.addEventListener('click', musicPlay);
+function musicPlay() {
+    document.getElementById('myaudio').play();
+}
+
