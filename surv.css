@@ -1,0 +1,118 @@
+/*put css here */
+/* Style the video: 100% width and height to cover the entire window */
+/*#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}*/
+
+/* Add some content at the bottom of the video/page */
+/*.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+*/
+body{
+  background: black;
+}
+
+@font-face {
+  font-family: pixel;
+  src: url(webpixelbitmap_regular.otf);
+}
+h1 {
+  animation: right_to_left 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes right_to_left {
+  from {
+    margin-left: 50%;
+  }
+  to {
+    margin-left: -90%;
+  }
+}
+
+#title{
+  color: white;
+  font-family: pixel;
+  opacity: 80%;
+  font-size: 180px;
+  width: 250vw;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+#tap{
+  color: #f0e130;
+  font-size: 36px;
+  font-family: pixel;
+  text-shadow: white;
+}
+
+#watch{
+  color: #f0e130;
+  opacity: 80%;
+  margin-top: 0;
+  padding-top: 0;
+  font-family: pixel;
+  font-size: 48px;
+}
+
+.fullscreen{
+  position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+#background{
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#video1{
+  font-size: 100px;
+  opacity: 0;
+}
+
+/*#background {
+   position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);*/
+/*  background: url('images/poster.jpg') no-repeat;
+*/  /*background-size: cover;
+  transition: 1s opacity;*/
+  /* -webkit-transform: translateX(-50% translateY(-50%;
+   transform: translateX(-50% translateY(-50%;*/
+}
+
+
+
+
+
+
+
+
