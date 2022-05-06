@@ -7,7 +7,26 @@
 // }
 // console.log("play")
 
-// document.addEventListener('click', musicPlay);
-// function musicPlay() {
-//     document.getElementById('myaudio').play();
-// }
+document.addEventListener('click', musicPlay);
+function musicPlay() {
+    document.getElementById('myaudio').play();
+}
+
+document.addEventListener('mouseenter', musicPlay);
+function musicPlay() {
+    document.getElementById('myaudio').play();
+}
+
+// var audio = $("#myaudio")[0];
+
+// $(document).ready(function () {
+
+//     $(".fullscreen").mouseover(function() {
+//       audio.play();
+//     }
+//     function() {
+//         audio.load();
+
+//     });
+
+// });
