@@ -4,17 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>surveillance</title>
+    <link rel="icon" type="image/png" href="redeye.png"/>
     <link rel="stylesheet" href="surv.css"/>
  
   </head>
   <body>
 
-
-<!-- The video -->
-<!-- <video autoplay muted loop id="myVideo">
-  <source src="home.mp4" type="video/mp4">
-</video> 
--->
 
 <div id="title">
 <h1 id="title" > ARE YOU WATCHING? ARE YOU PERFORMING?</h1>
@@ -41,6 +36,32 @@
 </div>
 
 
+<style>
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+</style>
+
+
+<div id="overlay" onclick="off()">
+  <div id="text">Overlay Text</div>
+</div>
+<input type="image" id="redeye" onclick="on()" src="redeye.png" style="position: absolute; bottom: 10pt; left: 10pt;"></input>
+<script>
+function on() {
+  document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+  document.getElementById("overlay").style.display = "none";
+}
+</script>
 
 <div class="fullscreen">
 <video  preload="true" autoplay loop muted id="background">
@@ -49,7 +70,7 @@
 </div>
 
 <div type="container" >
-  <a id="tap" class="glow" href="surveyor.html" class="pagelink" style="position: absolute; bottom: 60pt; right: 90pt; text-decoration: none;">tap shoulder</a>
+  <a id="tap" class="shoulder" href="surveyor.html" class="pagelink" style="position: absolute; bottom: 60pt; right: 90pt; text-decoration: none;">tap shoulder</a>
 </div>
 
 

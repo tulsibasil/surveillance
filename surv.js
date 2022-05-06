@@ -7,9 +7,12 @@ document.getElementById('surprise').addEventListener('ended',myHandler,false);
     }
     console.log("video ended")
 
-// const video = document.querySelector('video');
 
-// video.addEventListener('ended', (event) => {
-//   console.log('Video stopped either because 1) it was over, ' +
-//       'or 2) no further data is available.');
-// });
+// function on() {
+//   document.getElementById("overlay").style.display = "block";
+// }
+
+// function off() {
+//   document.getElementById("overlay").style.display = "none";
+// }
+
