@@ -7,11 +7,14 @@
 // }
 // console.log("play")
 
-document.addEventListener('click', musicPlay);
-function musicPlay() {
-    document.getElementById('myaudio').play();
-}
+// document.addEventListener('click', musicPlay);
+// function musicPlay() {
+//     document.getElementById('myaudio').play();
+// }
 
+$(document).on('ready', function(){
+    $('#myaudio').play();
+});
 
 
 // var audio = $("#myaudio")[0];
