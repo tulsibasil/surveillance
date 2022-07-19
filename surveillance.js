@@ -12,7 +12,7 @@
 //     document.getElementById('myaudio').play();
 // }
 
-$(document).on('ready', function(){
+document.on('click', function(){
     $('#myaudio').play();
 });
 

@@ -18,6 +18,10 @@ document.getElementById('surprise').addEventListener('ended',myHandler,false);
 
 document.addEventListener('click', musicPlay);
 function musicPlay() {
-    document.getElementById('myaudio').play();
+    document.getElementById('backaudio').play();
 }
+
+// document.addEventListener('click', function(){
+//     $('#myaudio').play();
+// });
 
